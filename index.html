@@ -13,10 +13,21 @@
 <body>
 
     <header>
+
         <nav>
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <h1 class="navbar-brand">Food, LLC</h1>
+                </div>
+            </div>
 
-            <h1 class="narbar-brand">Food, LLC</h1>
-
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav"
+                aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
             <!--
 
     Navbar: Create a navbar that scrolls away together with the page (the navbar should become invisible and is not fixed to the top when you scroll the page down). The navbar should have a company name (i.e., navbar-brand class) called "Food, LLC" that is aligned to the left side of the navbar. (See https://getbootstrap.com/docs/3.3/components/#navbar. Make the browser window narrower to see the mobile menu button appear in the first example shown at the provided link.)
@@ -36,6 +47,10 @@ The dropdown menu should take up the entire width of the browser window. Make su
         </nav>
     </header>
     <main>
+
+        <script src="js/jquery-2.1.4.min"></script>
+        <script src="js/jquery-ui.js"></script>
+        <script src="js/bootstrap.min.js"></script>
 
         <h2 class="text-center">Our Menu</h2>
 
@@ -171,8 +186,7 @@ The dropdown menu should take up the entire width of the browser window. Make su
         </div>
     </main>
 
-    <script src="js/jquery-3.6.1.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+
 </body>
 
 </html>
