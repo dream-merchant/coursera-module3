@@ -3,14 +3,16 @@
     box-sizing: border-box;
 }
 
-div.container {
-    margin: auto;
-    margin-top:35px;
-}
-
 .section {
     background-color: #999999;
-    margin-bottom: 35px;
+    margin-top: 35px;
     padding-left: 20px;
     padding-right: 20px;
+}
+
+nav {
+    background-color: #999999;
+    padding: 15px;
+    border: 3px solid black;
+    margin-bottom: 15px;
 }
